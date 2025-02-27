@@ -1,0 +1,39 @@
+
+@import "tailwindcss";
+
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+Image {
+  width: 200px;
+  height: 200px;
+}
+/* styles.css */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* ระยะห่างระหว่างภาพ */
+  margin-bottom: 10px; /* ระยะห่างด้านล่าง */
+}
+
+.Image {
+  width: 200px; /* ทำให้ภาพมีความกว้างเต็มที่ */
+  height: 200px; /* ปรับความสูงตามอัตราส่วน */
+  border-radius: 0.5rem; /* ทำให้มุมของภาพมีความโค้งมน */
+}
