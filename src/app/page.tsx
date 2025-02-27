@@ -32,7 +32,7 @@ export default function Home() {
   
   useEffect(() => {
     const calculateTimeLeft = (): TimeLeft => {
-      const birthday = new Date('205-03-03'); 
+      const birthday = new Date('2025-03-03'); 
       const now = new Date();
       const difference = birthday.getTime() - now.getTime();
 
