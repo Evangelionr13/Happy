@@ -58,7 +58,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-pink-100 flex flex-col items-center justify-center">
       <Head>
-        <title>Surprise for My Love! 💖</title>
+        <title>Surprise for My Love! 🥰💖</title>
       </Head>
 
       {isSurprise && <Confetti recycle={false} numberOfPieces={500} />}
@@ -77,7 +77,7 @@ export default function Home() {
 
       {isSurprise && (
         <div className="animate-fadeIn max-w-2xl bg-white p-8 rounded-lg shadow-lg">
-          <p className="text-xl mb-4">💌 dear my love...</p>
+          <p className="text-xl mb-4">💌 Dear Molliana</p>
           <p className="mb-4">
             Happy birthday... This year may not be like previous years, but no matter what changes, one thing that will never change is the good wishes I have for you. 
             I want you to be happy, I want you to get everything you hope for. Even though I&apos;m in a different position now, 
@@ -85,7 +85,10 @@ export default function Home() {
             If I could hug you right now, I would do it without hesitation. On this birthday, I wish you only the best. 
             And if there is a day when you feel tired or weak, I will be by your side no matter how long time passes. 
             I&apos;ll still wait for you. 🎂❤️ 
-            If life makes you tired... Remember that there are still people who love you very much and still care about you, like me. 
+            <br />
+            It&apos;s not easy to pretend that I don&apos;t feel anything, even though my heart is filled with the desire that someday we&apos;ll be together again.
+            <br /> I&apos;m really sorry for what I did stupidly, can you forgive me? 🥺🌹<br />
+            Rifa
           </p>
 
           <div className="image-container">
@@ -130,7 +133,7 @@ export default function Home() {
       )}
 
       <div className="mt-8 text-center">
-        <h2 className="text-2xl mb-4">🎂 Countdown to a special birthday!</h2>
+        <h2 className="text-2xl mb-4">🎂 Countdown To a Special Birthday!</h2>
         <div className="flex gap-4 justify-center">
           <TimeBox value={timeLeft.days} label="day"/>
           <TimeBox value={timeLeft.hours} label="hour"/>
