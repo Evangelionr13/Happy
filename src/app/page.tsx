@@ -133,7 +133,7 @@ export default function Home() {
       )}
 
       <div className="mt-8 text-center">
-        <h2 className="text-2xl mb-4">🎂 Countdown To a Special Birthday!</h2>
+        <h2 className="text-2xl mb-4">🎂 Countdown To a Special Birthday!!🌷</h2>
         <div className="flex gap-4 justify-center">
           <TimeBox value={timeLeft.days} label="day"/>
           <TimeBox value={timeLeft.hours} label="hour"/>
